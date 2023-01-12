@@ -3,7 +3,7 @@ install.packages("httr")
 library(httr)
 
 # Set US Census Bureau API key
-Sys.setenv(CENSUS_API_KEY = "d9fff35e556609d8b5e28a21cbcea24ced3c8b78")
+Sys.setenv(CENSUS_API_KEY = "YOUR_API_KEY_HERE")
 
 # Read in data
 data <- read.csv("C:/Users/User/Desktop/R Codes/train_data.csv")
